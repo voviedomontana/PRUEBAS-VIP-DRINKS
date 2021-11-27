@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Carrito de compras</title>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/673f269efc.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styles-car.css">
+        <link rel="stylesheet" href="css/styles-header.css">
+        <link rel="stylesheet" href="css/styles-footer.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container-page">
+        <%- include('./partials/header') %>
+      
+<main>
+    <!--ACÁ VA EL CÓDIGO DEL CUERPO DE LA PÁG-->
+    <section class="container-car">
+        <div class="product-car">
+            <div class="img">
+                <img src="/images/whisky-highland-feature.jpeg   " alt="">
+            </div>
+            <div class="description-product">
+                    <ul class="list-product" type="none">
+                        <li> TITULO</li>
+                        <li>Pecio: 
+                            <em>30000$</em>
+                        </li>
+                        <li>presentacion:
+                            <em>1Lt</em>
+                        </li>
+                    </ul>
+            </div>
+            <div class="cantidad">
+                <button><i class="fas fa-minus"></i></button><input type="text" name="" id=""><button><i class="fas fa-plus"></i></button>
+            </div>
+            <div class="delete">
+                <i class="fas fa-trash-alt"></i>
+            </div>
+
+        </div>
+        <div class="product-car">
+            <div class="img">
+                <img src="/images/whisky-highland-feature.jpeg   " alt="">
+            </div>
+            <div class="description-product">
+                    <ul class="list-product" type="none">
+                        <li> TITULO</li>
+                        <li>Pecio: 
+                            <em>30000$</em>
+                        </li>
+                        <li>presentacion:
+                            <em>1Lt</em>
+                        </li>
+                    </ul>
+            </div>
+            <div class="cantidad">
+                <button><i class="fas fa-minus"></i></button><input type="text" name="" id=""><button><i class="fas fa-plus"></i></button>
+            </div>
+            <div class="delete">
+                <i class="fas fa-trash-alt"></i>
+            </div>
+
+        </div>
+
+        <div class="resumen">
+                <div class="listado">
+                    <ul  type="none" class="product-list">
+                        <li>Item:xxx
+                            <em>Precio c/u: </em><em> xxx </em> 
+                        </li>
+                        <li>Item:xxx
+                            <em>Precio Total: </em> <em>xxx</em>
+                        </li>
+                        <li>Descuento Aplicado:<em>0%</em></li>
+                        
+                    </ul>
+                    <ul type="none" class="product-list">
+                        <li>Item:xxx
+                            <em>Precio c/u: </em><em> xxx </em> 
+                        </li>
+                        <li>Item:xxx
+                            <em>Precio Total: </em> <em>xxx</em>
+                        </li>
+                        <li>Descuento Aplicado: <em>0%</em> </li>
+                        
+                    </ul>
+                     <span class="total"> Toltal a pagar:<em>XXX</em></span>
+                </div>
+                <div class="botones">
+                        <div class="code-discount">
+                             <button>Finalizar compras</button>
+                        
+                        </div>
+                       
+        </div>
+    </section>
+
+   
+</main>
+
+<br>
+<br>
+<br>
+<br>
+<%- include('./partials/footer') %>
+</div>
+</body>
+</html>

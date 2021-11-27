@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+<head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <script src="https://kit.fontawesome.com/673f269efc.js" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="css/styles-luxury.css">
+                <link rel="stylesheet" href="css/styles-header.css">
+                <link rel="stylesheet" href="css/styles-footer.css">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+                <title>novedades</title>
+</head>
+<body>
+    <%- include('./partials/header') %>
+    
+        
+<main>
+    <div class="products"></div>
+    <h3>Tus productos favoritos</h3>
+    <section class="featured">
+        <article>
+            <a href="/detalle">
+                <img src="/images/champagne-krug-combo1.jpg" alt="coleccion-champagne-krug">  
+            </a>  
+            <div class="main-article"><i class="fas fa-plane"></i>
+                <p class="price">960.000$</p>
+                <p class="shipping">Envío Global Gratuito</p> 
+                <h4 class="description">Colección de Champagnes Krug 25 años</h4>  
+                <form action="/carrito-de-compras" method="post">
+                    <button class="buy" type="submit">Comprar</button>
+                </form>
+            </div> 
+        </article>
+        <article>
+            <a href="/detalle">
+                <img src="/images/Whisky-combo-juegodetronos1.jpg" alt="coleccion-whisky-got">  
+            </a>  
+            <div class="main-article"><i class="fas fa-plane"></i>
+                <p class="price">1.250.000$</p>
+                <p class="shipping">Envío Global Gratuito</p> 
+                <h4 class="description">Colección de Whisky GOT 15 años </h4>  
+                <form action="/carrito-de-compras" method="post">
+                    <button class="buy" type="submit">Comprar</button>
+                </form>
+            </div> 
+        </article>
+        <article>
+            <a href="/detalle">
+                <img src="/images/vodka-trump-combo1.jpg" alt="vodka-trump-combo">  
+            </a>  
+            <div class="main-article"><i class="fas fa-plane"></i>
+                <p class="price">650.000$</p>
+                <p class="shipping">Envío Global Gratuito</p> 
+                <h4 class="description">Combo de sabores Vodka Trump</h4>  
+                <form action="/carrito-de-compras" method="post">
+                    <button class="buy" type="submit">Comprar</button>
+                </form>
+            </div> 
+        </article>
+        <article>
+            <a href="/detalle">
+                <img src="/images/tequilaleycombo1.jpg" alt="combo-tequila-ley">  
+            </a>  
+            <div class="main-article"><i class="fas fa-plane"></i>
+                <p class="price">652.000$</p>
+                <p class="shipping">Envío Global Gratuito</p> 
+                <h4 class="description">Combo de Tequila Ley 924</h4>  
+                <form action="/carrito-de-compras" method="post">
+                    <button class="buy" type="submit">Comprar</button>
+                </form>
+            </div> 
+        </article>
+    </section>
+
+    <h3>Novedades</h3>
+    <section class="novelties">
+        <article>
+            <a href="/detalle">
+                <img src="/images/rutini-coleccion-combo1.jpg" alt="coleccion-rutinis">  
+            </a>  
+            <div class="main-article"><i class="fas fa-plane"></i>
+                <p class="price">350.000$</p>
+                <p class="shipping">Envío Global Gratuito</p> 
+                <h4 class="description">Colección de Vinos Rutini 15 años</h4>  
+                <form action="/carrito-de-compras" method="post">
+                    <button class="buy" type="submit">Comprar</button>
+                </form>
+            </div> 
+        </article>
+        <article>
+            <a href="/detalle">
+                <img src="/images/cognac-remy-combo1.jpg" alt="cognac-remy">  
+            </a>  
+            <div class="main-article"><i class="fas fa-plane"></i>
+                <p class="price">1.250.000$</p>
+                <p class="shipping">Envío Global Gratuito</p> 
+                <h4 class="description">Dos Cognac Remy</h4>  
+                <form action="/carrito-de-compras" method="post">
+                    <button class="buy" type="submit">Comprar</button>
+                </form>
+            </div> 
+        </article>
+        <article>
+            <a href="/detalle">
+                <img src="/images/chivas-combo1.jpg" alt="combo-chivas">  
+            </a>  
+            <div class="main-article"><i class="fas fa-plane"></i>
+                <p class="price">250.000$</p>
+                <p class="shipping">Envío Global Gratuito</p> 
+                <h4 class="description">Combo 3 Whisky Chivas</h4>  
+                <form action="/carrito-de-compras" method="post">
+                    <button class="buy" type="submit">Comprar</button>
+                </form>
+            </div> 
+        </article>
+        <article>
+            <a href="/detalle">
+                <img src="/images/gin-jcb-combo1.jpg" alt="gin-jcb">  
+            </a>  
+            <div class="main-article"><i class="fas fa-plane"></i>
+                <p class="price">1.550.000$</p>
+                <p class="shipping">Envío Global Gratuito</p> 
+                <h4 class="description">Combo Bebidas JCB</h4>  
+                <form action="/carrito-de-compras" method="post">
+                    <button class="buy" type="submit">Comprar</button>
+                </form>
+            </div> 
+        </article> 
+    </section>
+</main>
+        
+<%- include('./partials/footer') %>
+        
+</body>
+</html>

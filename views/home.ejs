@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+  
+    <title>Bienvenidx a VIP DRINKS</title>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/673f269efc.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styles-home.css">
+        <link rel="stylesheet" href="css/styles-header.css">
+        <link rel="stylesheet" href="css/styles-footer.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <%- include('./partials/header') %>
+
+<main>
+    <div class="products">
+    <h3>Tus productos favoritos</h3>
+    <section class="featured">
+    <article>
+        <a href="/detalle">
+        <img src="/images/tequila-Ley-925.png" alt="tequila-Ley-925">  
+        </a>  
+        <div class="main-article"><i class="fas fa-plane"></i>
+        <p class="price">$188.000</p>
+        <p class="shipping">Envío Global Gratuito</p> 
+        <h4 class="description">Tequila Ley 924</h4>  
+        <form action="/carrito-de-compras" method="post">
+        <button class="buy" type="submit">Comprar</button>
+        </form>
+    </div> 
+    </article> 
+        
+    <article>
+        <a href="/detalle">
+        <img src="/images/vodka-Trump.png" alt="vodka-Trump">
+    </a>
+        <div class="main-article"><i class="fas fa-plane"></i>
+        <p class="price">$250.000</p>
+        <p class="shipping">Envío Global Gratuito</p> 
+        <h4 class="description">Vodka Trump</h4>
+        <form action="/carrito-de-compras" method="post">
+            <button class="buy" type="submit">Comprar</button>
+            </form>
+    </div>
+    </article> 
+
+    <article>
+        <a href="/detalle">
+        <img src="/images/whisky-Highland-Park.png" alt="whisky-Highland-Park">
+        </a>
+        <div class="main-article"><i class="fas fa-plane"></i>
+        <p class="price">$255.000</p>
+        <p class="shipping">Envío Global Gratuito</p> 
+        <h4 class="description">whisky Highland Park</h4>
+        <form action="/carrito-de-compras" method="post">
+            <button class="buy" type="submit">Comprar</button>
+            </form>
+    </div>
+    </article> 
+   
+    <article>
+        <a href="/detalle">
+        <img src="/images/whisky-Louis-XIII.png" alt="whisky-Louis-XIII">
+        </a>
+        <div class="main-article"><i class="fas fa-plane"></i>
+        <p class="price">$230.000</p>
+        <p class="shipping">Envío Global Gratuito</p> 
+         <h4 class="description">Whisky Louis XIII</h4>
+         <form action="/carrito-de-compras" method="post">
+            <button class="buy" type="submit">Comprar</button>
+            </form>
+        </div>
+        </article>
+</section>
+
+<h3>Novedades</h3>
+<section class="novelties">
+                <article>
+                    <a href="/detalle">
+                 <img src="/images/champagne-Krug.png" alt="champagne-Krug">
+                    </a>
+                 <div class="main-article"><i class="fas fa-plane"></i>
+                 <p class="price">$120.000</p>
+                 <p class="discount">40% OFF</p>
+                 <h4 class="description">champagne Krug</h4>  
+                 <form action="/carrito-de-compras" method="post">
+                    <button class="buy" type="submit">Comprar</button>
+                    </form>    
+                </div>
+                </article> 
+            
+             <article>
+                <a href="/detalle">
+                 <img src="/images/champagne-Louis-Roederer.png" alt="champagne-Louis-Roederer">
+                </a>
+                 <div class="main-article"><i class="fas fa-plane"></i>
+                 <p class="price">$148.000</p>
+                 <p class="discount">20% OFF</p>
+                 <h4 class="description">Champagne Louis Roederer</h4>
+                 <form action="/carrito-de-compras" method="post">
+                    <button class="buy" type="submit">Comprar</button>
+                    </form>  
+                </div>
+                </article> 
+    
+              <article>
+                <a href="/detalle">
+                 <img src="/images/sake-Jumai.png" alt="sake-Jumai">
+                </a>
+                 <div class="main-article"><i class="fas fa-plane"></i>
+                 <p class="price">$11.500</p>
+                 <p class="discount">10% OFF</p>
+                  <h4 class="description">Sake Jumai</h4>
+                  <form action="/carrito-de-compras" method="post">
+                    <button class="buy" type="submit">Comprar</button>
+                    </form>  
+                </div>
+                </article> 
+       
+              <article>
+                <a href="/detalle">
+                  <img src="/images/ron-Habana-club.jpg" alt="ron-Habana-club">
+                </a>
+                  <div class="main-article"><i class="fas fa-plane"></i>
+                  <p class="price">$105.200</p>
+                  <p class="discount">5% OFF</p>
+                  <h4 class="description">Ron Habana Club</h4>
+                  <form action="/carrito-de-compras" method="post">
+                    <button class="buy" type="submit">Comprar</button>
+                    </form>  
+                </div>
+                </article>
+
+</section>
+</div>
+</main>
+<%- include('./partials/footer') %>
+
+</body>
+
+</html>
+
+
